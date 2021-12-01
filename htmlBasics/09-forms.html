@@ -42,6 +42,67 @@
                     <label> Customer Name: <input type="email" name="email" /></label>
                 </p>
             </fieldset>
+            <fieldset>
+                <legend>Size</legend>
+                <p>
+                    <input type="radio" name="size" id="size0" value="size0" />
+                    <label for="size0">Humongous</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size1" value="size0" />
+                    <label for="size0">Double-Humongous</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size2" value="size0" />
+                    <label for="size0">Triple-Humongous</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size3" value="size0" />
+                    <label for="size0">Just a small, please</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Fixins</legend>
+                <p>
+                    <input type="checkbox" name="fixins" id="onions" value="onions" />
+                    <label for="onions">Onions</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="guacamole" value="guacamole" />
+                    <label for="guacamole">Guacamole</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="queso" value="queso" />
+                    <label for="queso">Queso</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="lettuce" value="lettuce" />
+                    <label for="lettuce">Lettuce</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="beans" value="beans" />
+                    <label for="beans">Beans</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="rice" value="rice" />
+                    <label for="rice">Rice</label>
+                </p>
+            </fieldset>
+<br />
+            <fieldset>
+                <legend>Delivery Instructions</legend>
+                <p>
+                    <label for="time">Preferred Delivery Time:</label>
+                    <input id="time" name="time" type="time" min="11:00" max="21:00" step="900">
+                </p>
+                <p>Delivery Instructions
+                    <textarea columns="3" name="instructions" rows="3"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit Order</button>
+                </p>
+                
+            </fieldset>
         </form>
     </div>
     
