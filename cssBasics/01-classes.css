@@ -1,0 +1,15 @@
+.blue-text{
+    color: lightblue;
+
+}
+
+p{
+    color: red;
+    font-size: 22 px;
+    text-decoration: underline;
+}
+
+#green-text{
+    color: green;
+    text-transform: uppercase;
+}
