@@ -12,12 +12,14 @@
 <body>
     <div class="wrapper">
         <h1>Borders</h1>
-        <p id="title-p">The border property allows you to specify the style, width, and color of an element's border.</p>
+        <p id="title-p">The border property allows you to specify the style, width, and color of an element's border.
+        </p>
     </div>
 
     <div class="border-style">
         <h3>Border Style</h3>
-        <p>The border-style property can take up to four values (top border, right border, bottom border, and left border). The following border-style values are allowed: </p>
+        <p>The border-style property can take up to four values (top border, right border, bottom border, and left
+            border). The following border-style values are allowed: </p>
         <ul>
             <li><strong>dotted:</strong> dotted border</li>
             <li><strong>dashed:</strong> dashed border</li>
@@ -33,9 +35,23 @@
     </div>
     <div class="border-width">
         <h3>Border Width</h3>
+        <h4>VERY IMPORTANT: border-width will not work unless you have border-style set.</h4>
+        <p>Border-width can have a special size using the units px, em, etc., or you can use the preset settings: thin,
+            medium, and thick. The border-width property can also take up to four values (top, right, bottom, and left).
+        </p>
+        <p id="four-widths">An example of border-width being set to more than one value.</p>
     </div>
-    <div class=border-color">
+    <div class="border-color">
         <h3>Border Color</h3>
+        <h4>VERY IMPORTANT: border-color will not work unless you have a border-style set.</h4>
+        <p>Border-color can be set in the following ways: </p>
+        <ul>
+            <li><strong>name: </strong> specify a color that is preset in HTML</li>
+            <li><strong>hex:</strong> specify a hex value, such as "eeeeee" or the shorthand "#eee" which works in some
+                cases.</li>
+            <li><strong>RGB:</strong> specify an RGB value, ie. "rpg(100, 100, 100)"</li>
+            <li><strong>transparent:</strong> will make the border color transparent</li>
+        </ul>
     </div>
 </body>
 
